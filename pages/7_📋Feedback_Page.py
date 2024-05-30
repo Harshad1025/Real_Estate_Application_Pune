@@ -2,15 +2,12 @@ import streamlit as st
 import pandas as pd
 import sqlite3
 from pathlib import Path
-
-
 import yaml
 
 # Load configuration file
-with open("datasets/page_3/config.yaml", "r") as f:
+path_ = Path("datasets/page_3/config.yaml")
+with open(path_, "r") as f:
     config = yaml.safe_load(f)
-
-
 
 # Access sensitive information
 HOST_PASSWORD = config.get("HOST_PASSWORD")
