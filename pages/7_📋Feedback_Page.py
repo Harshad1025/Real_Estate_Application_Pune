@@ -4,14 +4,10 @@ import sqlite3
 from pathlib import Path
 
 
-
-import yaml
-
-
 import yaml
 
 # Load configuration file
-with open("config.yaml", "r") as f:
+with open("datasets/page_3/config.yaml", "r") as f:
     config = yaml.safe_load(f)
 
 

@@ -97,7 +97,7 @@ feature_text = pickle.load(open(path_0,'rb'))
 
 # Load the data
 path_1 = Path('datasets/page_3/feature_text.pkl')
-group_df_median = pd.read_csv('C:\\Users\\HARSHAD\\Newpythonproject\\Capstone_Project_datascience\\Pune_Real_Estate_Application\\datasets\\page_3\\median_agg_map_df.xls')
+group_df_median = pd.read_csv(path_1)
 
 path_2 = Path('datasets/page_3/avg_agg_map_df.xls')
 group_df_mean = pd.read_csv(path_2)

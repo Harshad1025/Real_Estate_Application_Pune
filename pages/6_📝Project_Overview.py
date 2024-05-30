@@ -141,6 +141,9 @@ def main():
     st.markdown("<h2 class='header'>Project GitHub Repo</h2>", unsafe_allow_html=True)
     github_link = "https://github.com/Harshad1025/Real_Estate_Application_Pune"
     st.markdown(f"<a href='{github_link}' class='github-repo' target='_blank'>💻 GitHub Repository</a>", unsafe_allow_html=True)
+
+    st.markdown("<p style='font-size: 18px; font-weight: bold; color: #00FF00;'>If you appreciate my work, please consider giving this repository a star on GitHub.</p>"
+    , unsafe_allow_html=True)
         # HTML content
     html_content = """
     <h3 style="text-align: center; width: 30px;"></h3>
