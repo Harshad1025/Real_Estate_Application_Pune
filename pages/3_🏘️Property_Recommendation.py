@@ -89,8 +89,8 @@ h2, h3 {
 
 # Inject custom CSS
 st.markdown(css, unsafe_allow_html=True)
-st.sidebar.write("""Please click the down arrow above to proceed to the next page.
-""")
+st.sidebar.write("""<span style='color: #ffff33 ;'>Please click the down arrow above to view all pages.</span>""", unsafe_allow_html=True)
+
 st.sidebar.markdown("---")
 st.sidebar.header("Accuracy Verification")
 
