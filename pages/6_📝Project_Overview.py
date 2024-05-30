@@ -220,7 +220,7 @@ def main():
         with st.form(key='feedback_form'):
             name = st.text_input("Your Name", value="", placeholder="Enter your name", key="name_input")
             feedback = st.text_area("Your Feedback", value="", placeholder="Enter your feedback", key="feedback_input")
-            rating = st.slider("Your Rating", 1, 5, 5)
+            rating = st.slider("Your Rating", 1.0, 5.0, 5.0, step=0.1, format="%.1f")
 
             submit_button = st.form_submit_button(label='Submit')
             st.markdown("""
